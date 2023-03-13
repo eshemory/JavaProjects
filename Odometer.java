@@ -19,8 +19,8 @@ public class Odometer {
 		this.fuelEfficiency = fuelEfficiency;
 	}
 	
-	public void milesDriven(double milesDriven) {
-		this.milesDriven += milesDriven;
+	public void addMilesDriven(double miles) {
+		this.milesDriven += miles;
 	}
 	
 	public double fuelConsumed() {
